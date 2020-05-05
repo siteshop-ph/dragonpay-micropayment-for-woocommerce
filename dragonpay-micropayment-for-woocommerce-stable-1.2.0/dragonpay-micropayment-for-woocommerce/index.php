@@ -427,7 +427,7 @@ $dragonpay_micropayment_param2 = get_option('woocommerce_dragonpay_micropayment_
      // Use the sandbox if you're testing. (Required: Sandbox Account with Dragonpay)
 	if(get_option('woocommerce_dragonpay_micropayment_settings')['test_mode'] == 'yes'){
 		 // TEST.
-		$urlWebService = 'http://test.dragonpay.ph/DragonpayWebService/MerchantService.asmx';                            
+		$urlWebService = 'https://test.dragonpay.ph/DragonpayWebService/MerchantService.asmx';                            
 
 	}else{
 		 // LIVE
@@ -439,7 +439,7 @@ $dragonpay_micropayment_param2 = get_option('woocommerce_dragonpay_micropayment_
 
 
        // for hard coded test
-              //$urlWebService = "http://test.dragonpay.ph/DragonpayWebService/MerchantService.asmx";
+              //$urlWebService = "https://test.dragonpay.ph/DragonpayWebService/MerchantService.asmx";
 
 
 
