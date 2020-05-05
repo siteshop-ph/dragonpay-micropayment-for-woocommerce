@@ -2,7 +2,7 @@
 /*
 	Plugin Name: Dragonpay.ph Micropayments For WooCommerce
 	Plugin URI: https://github.com/siteshop-ph/dragonpay-micropayment-for-woocommerce	 
-        Description: Dragonpay Micropayments <strong>This plugin require 1/ Webhosting: VPS or dedicated server are OK (IMPORTANT: shared server or WP managed service are NOT SUPPORTED)  2/ a Dragonpay Account to order at </strong> ; <a href="https://dragonpay.ph" target="_blank">dragonpay.ph</a>
+        Description: Dragonpay Micropayments. This plugin require 1/ Webhosting: VPS or dedicated server are OK (IMPORTANT: shared server or WP managed service are NOT SUPPORTED)  2/ a Dragonpay Account to order at ; <a href="https://dragonpay.ph" target="_blank">dragonpay.ph</a>
 	Version: 1.2.0
         Author: Serge Frankin SiteShop.ph (Netpublica.com Corp.)
 	Author URI: https://siteshop.ph/
