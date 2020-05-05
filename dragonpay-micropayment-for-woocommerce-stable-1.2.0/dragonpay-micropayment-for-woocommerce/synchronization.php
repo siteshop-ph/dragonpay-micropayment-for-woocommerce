@@ -131,12 +131,12 @@ $DateEnd = ob_get_clean();
 
 
 // Create the data that will serve to send the request to Dragonpay
- //file content, taken from here: https://test.dragonpay.ph/DragonpayWebService/MerchantService.asmx?op=GetMerchantTxns 
+ //file content, taken from here: http://test.dragonpay.ph/DragonpayWebService/MerchantService.asmx?op=GetMerchantTxns 
    //  SOAP 1.2 version & starting from first line with <?xml  and where for escaping this character "  ,    " is remplaced by \"  
 $content = "<?xml version=\"1.0\" encoding=\"utf-8\"?>
 <soap12:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">
   <soap12:Body>
-    <GetMerchantTxns xmlns=\"https://api.dragonpay.ph/\">
+    <GetMerchantTxns xmlns=\"http://api.dragonpay.ph/\">
       <merchantId>".$ws_merchantId."</merchantId>
       <password>".$ws_password."</password>
       <dStart>".$DateStart."</dStart>
